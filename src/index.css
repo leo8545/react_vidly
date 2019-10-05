@@ -11,3 +11,80 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+table {
+  border-collapse: collapse;
+  /* margin: 20px auto; */
+}
+td,
+th {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  width: 80px;
+  text-align: center;
+}
+th {
+  background-color: #f2f2f2;
+}
+
+i.liked {
+  color: #dd3333;
+}
+nav {
+  margin: 10px 0;
+}
+ul.pagination,
+li.page-item {
+  display: inline;
+}
+li.page-item {
+  padding: 5px 0;
+  border: 1px solid #ddd;
+}
+li.page-item:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+li.page-item:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+li.page-item:hover {
+  background-color: #ddd;
+  cursor: pointer;
+}
+li.active {
+  background-color: cornflowerblue;
+  border-color: cornflowerblue;
+  color: #fff;
+}
+li.page-item.active button {
+  color: #fff;
+}
+button.page-link {
+  background-color: transparent;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+}
+button.page-link:focus {
+  outline: none;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+}
+ul.list-group {
+  list-style: none;
+  margin-right: 10px;
+}
+li.list-group-item {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+li.list-group-item:hover {
+  cursor: pointer;
+}
+.msg {
+  margin: 10px 0;
+}
