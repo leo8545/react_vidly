@@ -12,7 +12,7 @@ class Movies extends Component {
     movies: [],
     genres: [],
     selectedGenre: "",
-    pageSize: 3,
+    pageSize: 4,
     currentPage: 1,
     sortColumn: { path: "title", order: "asc" }
   };

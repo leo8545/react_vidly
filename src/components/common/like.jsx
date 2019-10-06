@@ -1,12 +1,12 @@
 import React from "react";
 const Like = props => {
   let classes = "like";
-  if (props.liked) classes += "d";
+  if (props.movie.liked) classes += "d";
   return (
     <i
       className={classes}
-      onClick={() => props.onLike(props.movie)}
       style={{ cursor: "pointer" }}
+      onClick={() => props.onLike(props.movie)}
     >
       Like
     </i>
